@@ -1,8 +1,9 @@
 # Fetch rates by date - uses http://api.nbp.pl/
 ## date format: YYYY-MM-DD
+## each date in separate line
 
-<input id="currency" type="text"></input>
-<textarea id="dates" width="150" height="350" onpaste="fetchRates()">
+<input id="currency" type="text" placeholder="currency code">
+<textarea id="dates" width="150" height="350" onpaste="fetchRates()" placeholder="dates: YYYY-MM-DD">
 </textarea>
 <input type="button" onclick="fetchRates()" value="Fetch rates">
 
