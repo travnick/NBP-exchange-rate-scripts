@@ -21,7 +21,7 @@
 <script>
 function makeUrl(currency, date)
 {
-  return `https://api.nbp.pl/api/exchangerates/rates/a/$(currency)/${date}?format=json`;
+  return `https://api.nbp.pl/api/exchangerates/rates/a/${currency}/${date}?format=json`;
 }
 
 function getRate(url) {  
